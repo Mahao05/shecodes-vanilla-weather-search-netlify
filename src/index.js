@@ -58,4 +58,4 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("Submit", handleSearchInput);
 
-searchCity(Paris);
+searchCity("Paris");
