@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+ background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
   font-family: "Roboto", sans-serif;
 }
 
@@ -10,10 +10,10 @@ a {
 .weather-app {
   background: #cef0b9;
   max-width: 600px;
-  margin: 60px auto;
-  padding: 30px;
-  border-radius: 10px;
+  margin: 45px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 16px;
+  padding: 30px;
 }
 
 header {
@@ -37,7 +37,7 @@ header {
   font-size: 16px;
   margin-left: 5px;
   border-radius: 6px;
-  color: #fff;
+  color: white;
 }
 
 main {
@@ -75,7 +75,7 @@ main {
   height: 88px;
 }
 
-.current-temperature {
+.weather-app-temperature {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
@@ -101,10 +101,8 @@ main {
 }
 
 .weather-forecast-icon {
-  width: 88px;
-  height: 88px;
-  display: block;
-  margin: 0 auto;
+  font-size: 38px;
+  text-align: center;
 }
 .weather-forecast-temperatures {
   text-align: center;
@@ -115,17 +113,12 @@ main {
 }
 
 .weather-forecast-temperature {
-  font-size: 80px;
-  font-weight: bold;
+  padding: 0 10px;
 }
 
-.weather-forecast-min {
-  opacity: 0.5;
-}
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
   text-align: center;
   font-size: 14px;
   color: rgba(0, 0, 0, 0.6);
-}
